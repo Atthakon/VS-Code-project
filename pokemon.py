@@ -1,8 +1,9 @@
-##import streamlit as st 
-##from PIL import Image
-##img=Image.open('pokemon_bulbasaur.png')
-##st.image(img)
 import streamlit as st
+
+title  = st.text_input("ค้นหาชื่อ:", "Fushigidane")
+st.write("https://www.serebii.net/pokemon/bulbasaur/", title )
+
+
 st.image('pokemon1-20/pokemon_bulbasaur.png', caption='1.Fushigidane', width=150) #1
 
 st.image('pokemon1-20/pokemon_Fushigisou.png', caption='2.Fushigisou', width=155) #2
@@ -168,3 +169,139 @@ st.image('pokemon81-100/pokemon_Coil.png', caption='81.Coil', width=150) #81
 st.image('pokemon81-100/pokemon_Rarecoil.png', caption='82.Rarecoil', width=150) #82
 
 st.image('pokemon81-100/pokemon_Kamonegi.png', caption='83.Kamonegi', width=150) #83
+
+st.image('pokemon81-100/pokemon_Dodo.png', caption='84.Dodo', width=150) #84
+
+st.image('pokemon81-100/pokemon_Dodorio.png', caption='85.Dodorio', width=150) #85
+
+st.image('pokemon81-100/pokemon_Pawou.png', caption='86.Pawou', width=150) #86
+
+st.image('pokemon81-100/pokemon_Jugon.png', caption='87.Jugon', width=150) #87
+
+st.image('pokemon81-100/pokemon_Betbeter.png', caption='88.Betbeter', width=150) #88
+
+st.image('pokemon81-100/pokemon_Betbeton.png', caption='89.Betbeton', width=150) #89
+
+st.image('pokemon81-100/pokemon_Shellder.png', caption='90.Shellder', width=150) #90
+
+st.image('pokemon81-100/pokemon_Parshen.png', caption='91.Parshen', width=150) #91
+
+st.image('pokemon81-100/pokemon_Ghos.png', caption='92.Ghos', width=150) #92
+
+st.image('pokemon81-100/pokemon_Ghost.png', caption='93.Ghost', width=150) #93
+
+st.image('pokemon81-100/pokemon_Gangar.png', caption='94.Gangar', width=150) #94
+
+st.image('pokemon81-100/pokemon_Iwark.png', caption='95.Iwark', width=150) #95
+
+st.image('pokemon81-100/pokemon_Sleepe.png', caption='96.Sleepe', width=150) #96
+
+st.image('pokemon81-100/pokemon_Sleeper.png', caption='97.Sleeper', width=150) #97
+
+st.image('pokemon101-120/pokemon_Crab.png', caption='98.Crab', width=150) #98
+
+st.image('pokemon101-120/pokemon_Kingler.png', caption='99.Kingler', width=150) #99
+
+st.image('pokemon101-120/pokemon_Biriridama.png', caption='100.Biriridama', width=150) #100
+
+st.image('pokemon101-120/pokemon_Marumine.png', caption='101.Marumine', width=150) #101
+
+st.image('pokemon101-120/pokemon_Tamatama.png', caption='102.Tamatama', width=150) #102
+
+st.image('pokemon101-120/pokemon_Nassy.png', caption='103.Nassy', width=150) #103
+
+st.image('pokemon101-120/pokemon_Karakara.png', caption='104.Karakara', width=150) #104
+
+st.image('pokemon101-120/pokemon_Garagara.png', caption='105.Garagara', width=150) #105
+
+st.image('pokemon101-120/pokemon_Sawamular.png', caption='106.Sawamular', width=150) #106
+
+st.image('pokemon101-120/pokemon_Ebiwalar.png', caption='107.Ebiwalar', width=150) #107
+
+st.image('pokemon101-120/pokemon_Beroringa.png', caption='108.Beroringa', width=150) #108
+
+st.image('pokemon101-120/pokemon_Dogars.png', caption='109.Dogars', width=150) #109
+
+st.image('pokemon101-120/pokemon_Matadogas.png', caption='110.Matadogas', width=150) #110
+
+st.image('pokemon101-120/pokemon_Sihorn.png', caption='111.Sihorn', width=150) #111
+
+st.image('pokemon101-120/pokemon_Sidon.png', caption='112.Sidon', width=150) #112
+
+st.image('pokemon101-120/pokemon_Lucky.png', caption='113.Lucky', width=150) #113
+
+st.image('pokemon101-120/pokemon_Monjara.png', caption='114.Monjara', width=150) #114
+
+st.image('pokemon101-120/pokemon_Garura.png', caption='115.Garura', width=150) #115
+
+st.image('pokemon101-120/pokemon_Tattu.png', caption='116.Tattu', width=150) #116
+
+st.image('pokemon101-120/pokemon_Seadra.png', caption='117.Seadra', width=150) #117
+
+st.image('pokemon101-120/pokemon_Tosakinto.png', caption='118.Tosakinto', width=150) #118
+
+st.image('pokemon101-120/pokemon_Azumao.png', caption='119.Azumao', width=150) #119
+
+st.image('pokemon101-120/pokemon_Hitodeman.png', caption='120.Hitodeman', width=150) #120
+
+st.image('pokemon121-140/pokemon_Starmie.png', caption='121.Starmie', width=150) #121
+
+st.image('pokemon121-140/pokemon_Barrierd.png', caption='122.Barrierde', width=150) #122
+
+st.image('pokemon121-140/pokemon_Strike.png', caption='123.Strike', width=150) #123
+
+st.image('pokemon121-140/pokemon_Rougela.png', caption='124.Rougela', width=150) #124
+
+st.image('pokemon121-140/pokemon_Eleboo.png', caption='125.Eleboo', width=150) #125
+
+st.image('pokemon121-140/pokemon_Boober.png', caption='126.Boober', width=150) #126
+
+st.image('pokemon121-140/pokemon_Kailios.png', caption='127.Kailios', width=150) #127
+
+st.image('pokemon121-140/pokemon_Kentauros.png', caption='128.Kentauros', width=150) #128
+
+st.image('pokemon121-140/pokemon_Koiking.png', caption='129.Koiking', width=150) #129
+
+st.image('pokemon121-140/pokemon_Gyarados.png', caption='130.Gyarados', width=150) #130
+
+st.image('pokemon121-140/pokemon_Laplace.png', caption='131.Laplace', width=150) #131
+
+st.image('pokemon121-140/pokemon_Metamon.png', caption='132.Metamon', width=150) #132
+
+st.image('pokemon121-140/pokemon_Eievui.png', caption='133.Eievui', width=150) #133
+
+st.image('pokemon121-140/pokemon_Showers.png', caption='134.Showers', width=150) #134
+
+st.image('pokemon121-140/pokemon_Thunders.png', caption='135.Thunders', width=150) #135
+
+st.image('pokemon121-140/pokemon_Booster.png', caption='136.Booster', width=150) #136
+
+st.image('pokemon121-140/pokemon_Porygon.png', caption='137.Porygon', width=150) #137
+
+st.image('pokemon121-140/pokemon_Omnite.png', caption='138.Omnite', width=150) #138
+
+st.image('pokemon121-140/pokemon_Omstar.png', caption='139.Omstar', width=150) #139
+
+st.image('pokemon121-140/pokemon_Kabuto.png', caption='140.Kabuto', width=150) #140
+
+st.image('pokemon141-151/pokemon_Kabutops.png', caption='141.Kabutops', width=150) #141
+
+st.image('pokemon141-151/pokemon_Ptera.png', caption='142.Ptera', width=150) #142
+
+st.image('pokemon141-151/pokemon_Kabigon.png', caption='143.Kabigon', width=150) #143
+
+st.image('pokemon141-151/pokemon_Freezer.png', caption='144.Freezer', width=150) #144
+
+st.image('pokemon141-151/pokemon_Thunder.png', caption='145.Thunder', width=150) #145
+
+st.image('pokemon141-151/pokemon_Fire.png', caption='146.Fire', width=150) #146
+
+st.image('pokemon141-151/pokemon_Miniryu.png', caption='147.Miniryu', width=150) #147
+
+st.image('pokemon141-151/pokemon_Hakuryu.png', caption='148.Hakuryu', width=150) #148
+
+st.image('pokemon141-151/pokemon_Kairyu.png', caption='149.Kairyu', width=150) #149
+
+st.image('pokemon141-151/pokemon_Mewtwo.png', caption='150.Mewtwo', width=150) #150
+
+st.image('pokemon141-151/pokemon_Mew.png', caption='151.Mew', width=150) #151
